@@ -1,7 +1,10 @@
 body {
-    margin: 0;
-    overflow: hidden;
+  background-image: url('https://www.canva.com/design/DAFyx-Ps-BM/view');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional, if you want the background to stay fixed */
 }
+
 
 #backgroundCanvas {
     position: fixed;

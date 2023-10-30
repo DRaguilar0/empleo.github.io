@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#backgroundCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 20px;
+}

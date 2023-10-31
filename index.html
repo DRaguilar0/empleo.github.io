@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Your Page Title</title>
+    <style>
+        body {
+            background-image: url('imagen_empleo.png');
+            background-size: 50% 50%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            position: relative; /* Add position: relative to the body */
+        }
+        
+        /* Style for the Google Maps link */
+        #google-maps-link {
+            position: absolute;
+            bottom: 10px; /* Adjust this value for vertical positioning */
+            left: 10px; /* Adjust this value for horizontal positioning */
+        }
+    </style>
 </head>
 <body style="background-image: url('imagen_empleo.png'); background-size: 90% 90%; background-repeat: no-repeat; background-attachment: fixed;">
-
-
-    <h1>Hello, World!</h1>
-    <p>This is your page content.</p>
-     <!-- Google Maps Directions Link -->
      <!-- Google Maps Directions Image Link -->
     <a href="https://www.google.com.mx/maps/dir/19.4780052,-99.0726774/19.4779736,-99.072679/@19.4777924,-99.0725785,19z/data=!4m2!4m1!3e0?entry=ttu" target="_blank">
-        <img src="google.png" alt="Google Maps" style="width: 100px; height: 100px;">
+        <img src="google.png" alt="Google Maps" style="width: 300px; height: 300px;">
     </a>
 </body>
 </html>
